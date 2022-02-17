@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "text": "Hey",
+    "messageType": "Question",
+    "options": [
+      {
+        "text": "Hi",
+        "nextMessageId": 2
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "Would you like to hear an interesting story?",
+    "messageType": "Question",
+    "options": [
+      {
+        "text": "Yes",
+        "nextMessageId": 4
+      },
+      {
+        "text": "No",
+        "nextMessageId": 3
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "text": "No? That's too bad. Would you like to reconsider?",
+    "messageType": "Question",
+    "options": [
+      {
+        "text": "Yes, ok. This story better be good.",
+        "nextMessageId": 4
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "text": "Great! You will not regret this.",
+    "messageType": "Text",
+    "nextMessageId": 5
+  },
+  {
+    "id": 5,
+    "text": "Once upon a time, an old man lived in the village.",
+    "messageType": "Text",
+    "nextMessageId": 6
+  },
+  {
+    "id": 6,
+    "text": "He was one of the most unfortunate people in the world.",
+    "messageType": "Text",
+    "nextMessageId": 7
+  },
+  {
+    "id": 7,
+    "text": "He was always gloomy, he constantly complained and was always in a bad mood.",
+    "messageType": "Text",
+    "nextMessageId": 8
+  },
+  {
+    "id": 8,
+    "text": "Would you like to be around someone like that?",
+    "messageType": "Question",
+    "options": [
+      {
+        "text": "Yes",
+        "nextMessageId": 10
+      },
+      {
+        "text": "No",
+        "nextMessageId": 11
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "text": "People that complain usually are negative. You should always try and show them the bright side of life.",
+    "messageType": "Text",
+    "nextMessageId": 12
+  },
+  {
+    "id": 11,
+    "text": "Exactly, People avoided him, because his misfortune became contagious. It was even unnatural and insulting to be happy next to him.",
+    "messageType": "Text",
+    "nextMessageId": 12
+  },
+  {
+    "id": 12,
+    "text": "But one day, when he turned eighty years old, an incredible thing happened.",
+    "messageType": "Text",
+    "nextMessageId": 13
+  },
+  {
+    "id": 13,
+    "text": "Can you guess what happended?",
+    "messageType": "Question",
+    "options": [
+      {
+        "text": "No idea",
+        "nextMessageId": 14
+      },
+      {
+        "text": "He became happy",
+        "nextMessageId": 15
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "text": "The Old Man was happy that day. He did not complain about anything.",
+    "messageType": "Text",
+    "nextMessageId": 15
+  },
+  {
+    "id": 15,
+    "text": "Surprisingly so. He became happy.",
+    "messageType": "Text",
+    "nextMessageId": 16
+  },
+  {
+    "id": 16,
+    "text": "The villagers gathered together and ask him what had happened",
+    "messageType": "Text",
+    "nextMessageId": 17
+  },
+  {
+    "id": 17,
+    "text": "Would you like to know what he said?",
+    "messageType": "Question",
+    "options": [
+      {
+        "text": "Yes, I am very curious!",
+        "nextMessageId": 18
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "text": "He said - Eighty years I’ve been chasing happiness, and it was useless...",
+    "messageType": "Text",
+    "nextMessageId": 19
+  },
+  {
+    "id": 19,
+    "text": "...and then I decided to live without happiness and just enjoy life.",
+    "messageType": "Text",
+    "nextMessageId": 20
+  },
+  {
+    "id": 20,
+    "text": "That’s why I’m happy now.",
+    "messageType": "Text",
+    "nextMessageId": 21
+  },
+  {
+    "id": 21,
+    "text": "The moral of the story is - Do not chase happiness. Enjoy your life.",
+    "messageType": "Text"
+  }
+]

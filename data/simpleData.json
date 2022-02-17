@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "text": "How are you?",
+    "messageType": "Question",
+    "audioPath": "audio/how_r_u.mp3",
+    "nextMessageId": "",
+    "options": [
+      {
+        "text": "I'm fine",
+        "nextMessageId": 2
+      },
+      {
+        "text": "Not too great",
+        "nextMessageId": 3
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "text": "That's good! Keep up the optimism.",
+    "messageType": "Text",
+    "audioPath": "audio/good.mp3"
+  },
+  {
+    "id": 3,
+    "text": "That's too bad. Hope things get better for you soon.",
+    "messageType": "Text",
+    "audioPath": "audio/bad.mp3"
+  }
+]
